@@ -1,16 +1,11 @@
 function validateForm()
 {
-    var fname = document.getElementById("fname").value;
+   
     var lname = document.getElementById("lname").value;
     var rollno = document.getElementById("rollno").value;
     var phone = document.getElementById("phone").value;
     var email = document.getElementById("email").value;
 
-    if(fname == "")
-    {
-        alert("Enter first Name");
-        return false;
-    }
 
     if(lname == "")
     {
